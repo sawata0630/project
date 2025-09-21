@@ -1,0 +1,884 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>⧖銀子彈的軌跡</title>
+      
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #1a1d21;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 2rem;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #272b30;
+    border-radius: 8px;
+    border: 1px solid #3d444c;
+    padding: 1rem 2rem;
+  }
+  h1 {
+    color: #ffffff;
+    border-bottom: 1px solid #3d444c;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+  }
+  .message-bubble {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    margin-top: 4px;
+  }
+  .message-content-wrapper {
+    flex: 1;
+  }
+  .character-name {
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 0.25rem 0;
+  }
+  .message-content {
+    background-color: #3d444c;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border-top-left-radius: 0;
+  }
+  .message-content p {
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #d1d5db;
+  }
+  .message-content img {
+    max-width: 20rem;
+    max-height: 12rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 6px;
+    display: inline-block;
+  }
+  .message-content a {
+    color: #22d3ee;
+    text-decoration: none;
+  }
+  .message-content a:hover {
+    text-decoration: underline;
+  }
+  .dice-roll {
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    background-color: rgba(26, 29, 33, 0.5);
+    border: 1px solid #535d68;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    justify-content: center;
+    font-size: 0.9rem;
+  }
+  .dice-roll-text {
+    font-weight: 600;
+    color: #67e8f9;
+  }
+</style>
+
+    </head>
+    <body>
+      <div class="container">
+        <h1>⧖銀子彈的軌跡</h1>
+        
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <a href="https://readplurk.moka-rin.moe/p3t2jc" target="_blank" rel="noopener noreferrer">第四周</a>
+<p>與∆◇×</p>
+<p><br><br>依循著槍響，緬回頭望向他的朋友，他輕聲開口，做出最後的告別。<br></p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>＊<br><br><br> 第四週間的最後一日，與她會合了。<br><br><br> 紅髮的女性朝他們走來，緬毫無防備的迎上去，恭敬地遞出那把他珍惜的銀色手槍，並與她告別，整個過程異常流暢且俐落。<br><br><br> 隨著他稍微拉開距離後，緬才回頭看向真正與他一同行動的交易夥伴。</p>
+<p>「我的衝動……造成你們很多麻煩。」<br><br><br> 語氣中雖帶著些許歉意，但緬沒有真的說對不起，他不曾真心結交過朋友，綱可以說是第一個，即使實際有更多交談的人是零。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>在那生面孔映入眼簾之際，零下意識地攥緊了藏在口袋裡的蝴蝶刀。<br> 雖然緬的舉動已間接表明了來者並非他們的敵人，但零依然沒有放鬆警戒，只是默默地拉著綱往後退了幾步，並在遠處打量起這名陌生的來客。<br><br><br> 難以通過聲音和長相辨別雌雄，但從體型上看來對方應該是一名女性，年齡應該跟自己差不多或是稍大；即使無意偷聽甚至已刻意作迴避，可過於敏銳的聽覺還是擅自捕捉到那簡短得完全搞不懂前因後果的對話內容。<br> 從對談中可得知的線索僅有兩點：一是紅髮女性名叫霍普森，二是她收下了緬主動遞出的手槍，結合兩週前緬所說的『這把槍我打算交給別人』……這個『別人』似乎就是面前的這名女性。<br><br><br> 這一刻似乎是回收了當時埋下的伏線，但是——</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>『既然那個人能讓你交出身上惟一的保命手段，證明那個人對你而言有一定重要性吧？那為什麼不跟那個人共同行動而是要冒險找上底細不明的綱？』<br><br><br> ——兩週以前閃過的疑問再度浮上心頭。<br><br><br> 眼前二人長相以及名字風格並不相似，可以先排除有血緣關係或是親屬的可能性；從自己的角度看來，他們的互動亦遠遠稱不上親昵，硬要用一個詞來形容的話零大概會用『微妙』吧？而且都已經是最後一天了，事到如今才把手槍交給別人到底是為了什麼？這兩人的關係到底是……算了，還是別讓不必要的好奇心害了自己。<br><br><br> 待該名紅髮女性走遠後，他才領著還在狀況外的綱走回來，對於緬的話語，零又是慣例的一口嘆氣，而綱則是歪起了那白色的小腦袋，盯著緬的臉沉思半晌才搖了搖頭開口道：</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>…</p>
+<p>「麻煩，應該沒有？那個……跟緬一起，很高興？這段時間。」</p>
+<p>「……沒有什麼麻不麻煩的，反正打從進來的一刻開始所有事情都朝著麻煩到極點的爛方向發展了，也不差這件了。」<br> 與笨拙地安慰人（？？）的綱不同，零還是一如既往地直話直說且話中帶刺，回想起這一段時間下來的經歷只感覺血壓飆升，搞不好再多待個幾星期真的會腦溢血。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>「高興？」<br><br><br> 少年疑惑地複述這個單詞，他不確定自己的情感跟綱是否一致，但人們本就不相似，始終無法徹底理解彼此。<br><br><br> 他面對綱時總是感到奇異的放鬆，或許能由此推論他與男孩有著相同的想法，儘管緬的思考邏輯相對起來更為曲折複雜。<br><br><br> 只望最後抵達的是共通的終點。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>「我也很高興……對了、」<br><br><br> 能夠與綱相遇，以及進入極惡之間，即使是錯覺也好，仍在某個瞬間斷定自己是幸運的，飽含著不幸的相遇只能結成腐爛的果實，可惜與慶幸交織在一起，他無法陳述此刻的感受，僅是繼續說道：</p>
+<p>「這裡是挺爛的，連休憩都不得安寧。但我的任務也完成了，我希望霍普森——剛剛那名女性，能夠辦到我所不能做到的事。」<br><br><br> 緬有個強烈的預感，殺了景常晝的兄弟倆，隱瞞著什麼一觸即發的災難。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>「……？」<br> 他本來是在想，現在的感覺就跟當初聽到緬的那句『很高興認識你』十分相近，既然當時將這份微甜而陌生的感覺定義為『高興』的話，那現在用『高興』來形容這段時間的感覺應該是正確的？但為什麼緬的話聽起來帶了點疑惑的？是他搞錯了什麼嗎？<br><br><br> 大概是孩童運轉著遲鈍的腦袋時無意識的小動作吧，綱再次歪了歪頭，接著像是想起了什麼似地，他小跑步至少年的跟前，伸出雙手握住了緬的其中一隻手，用臉輕蹭了幾下，就像小貓在對人示好那樣，綱也直接以行動確切地（？）表達自己體會到的感覺。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>對於綱此時的舉動，零並沒有多作反應——應該說他的關注點落在了與綱截然不同的地方上。<br><br><br> ——你的任務完成了？就在剛剛？什麼一回事？<br> 一肚子的疑惑持續發酵，聽到最後一句他更是下意識反問了回去：<br><br><br> 「你所不能做到的事？」<br><br><br> 話音才剛脫口而出，他便心中一凜，猶如反射動作般地立刻舉起手、作勢想要捂住藏在口罩底下不聽話的嘴，但動作到了一半零似乎也意識到這動作充斥著滿滿的心虛，只好順著勢有點不自然地撓了撓脖頸，在心裡把不謹言慎行的自己痛罵一頓後補上了一句：「……不想說也沒關係的，抱歉。」</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>在綱觸碰到他的時候，緬才意識到身體出了點冷汗，指尖有些冰涼、近乎毫無溫度，原來他並不是毫不緊張自己的生死。<br><br><br> 他說任務，也說著使命，彷彿只要將該做的事交出去，就會有人替他完成，哀嚎著哭求著，就像景常晝義無反顧的送死。<br><br><br> 緬未能聽到遺言，他觸碰那孩子溫熱且正在呼吸的臉頰，想起第一次進入花園，接過那朵玫瑰，被染成純黑的嬌嫩鮮花，它正值花期，活著的時間卻如此短暫。<br><br><br> 伸出手捏了捏綱的臉頰，露出一個難看的笑容，僵硬又刻意地表達『高興』。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>「沒什麼不能說的。」<br><br><br> 「我只是，在純白的房間觀察著人們，在聽聞景常晝死亡的經過、在看過每個人的眼神，我很清楚，死亡一定會降臨在霍普森身邊，我希望她能替我做決定。」<br><br><br> 「是看著重視的人去死，或者舉起手槍，當一個愚蠢又軟弱的劊子手。」<br><br><br> 成為那朵被染黑的玫瑰，替緬行他所不能做的復仇，許是這樣就能令死者安息。<br><br><br> 「自私地希望她能成為那樣的人。」</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>——要維持潔白之軀看著重視之人去死，還是成為滿身鮮血的劊子手？<br> 零很清楚緬說的這一番話只是在回應他方才的提問、並沒有暗藏著什麼其他意思，但言者無心聽者有意。<br><br><br> ——愚蠢的劊子手，在你面前就有一個了。<br><br><br> 即使知道那搖搖欲墜的玻璃瓶終究逃不過墜地的命運也好，在那一刻到來以前還是想要嘗試掙扎一下，不論是事先在地面上墊好厚毛巾，還是像個笨蛋一樣奮不顧身撲過去接住它也好，只要行動了說不定就能打破一成不變的絕望死局——比起坦然接受命運，比起不情不願地走上被決定好的道路，不如動身去爭取自己想要的結局。<br><br><br> 所以他愚蠢地反抗著，並天真地期盼那安然的奇跡降臨在自己身上。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>「………………這樣啊。」<br> 他不認同緬的做法，但失言這東西一次都嫌多，他壓下心中的複雜情緒，吐出平淡而短的一句回應，也還好他本來表情變化就不大現在還戴著口罩，不然內心的動搖早就暴露無遺了。</p>
+<p>「那你現在打算怎樣？親眼去看那個叫霍普森的人為你決定了怎麼樣的結末嗎？」<br> 既然緬把手槍交了出去、為那名女性增添了坐以待斃以外的選項，少年期望的發展可說是不言而喻了——雖然不知道當事人有沒有這樣的自覺就是。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>「今天，如果聽到槍聲，那就證明了我的預感。」<br><br><br> 緬冷靜地說著，沒有反駁零說霍普森為自己決定結局的話，也無從辯駁，甚至連復仇的資格都不曾有過，景常晝死於咎由自取，依然有人為他哀悼。</p>
+<p>「倘若槍聲沒有響起，那表示我失敗了，我不會再去見她。」<br><br><br> 錯誤的交付武器，霍普森未依他所想的使用槍枝，手裡繼續揉著男孩的頰肉，態度熟稔的有些嚇人。<br><br><br> 「出去之後，我會依那日所說的將報酬交還給你們，然後……」</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>「像個惡人般面對我的結末。」<br><br><br> 自大的兄長在天塌下死去，瘋癲的僕從被他人所殺，潘朵拉盒子最後所剩的希望，他託付給了霍普森。<br><br><br> 「命運說來可笑，但越是否定，越是被其所束縛。」參加極惡之間是一場無路可走的賭博，但運氣這種東西，總是會發生觸底反彈的荒謬反應。<br><br><br> 唯一的幸事，是遇見了綱。</p>
+<p>「我能對綱單獨說一些話嗎？」</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>零沒有直接回應緬的問話，而是蹲下身對著一臉茫然的綱低聲說了句，接著便轉身走出這間隨便找來的客房並輕輕關上了門；響起的關門聲短暫地阻隔了聽覺，背靠著的門扉也如同分界線一樣，分隔了黔黑的自己與純白的少年們。<br><br><br> 或許不用做得這麼徹底吧，但既然緬希望跟綱單獨講話，那自己就無謂繼續待在裡面了，畢竟就算沒有想要偷聽的意思，自己那敏銳過頭的聽力還是會像剛剛那樣擅自把對話全都捕捉到吧；而且，零現在也需要點時間自個兒安靜待著。</p>
+<p>（越是否定命運越是被其所束縛……嗎。）<br> 那時的選擇真的是最優解嗎？會不會其實有更好的應對方式？對她而言這樣真的是■■嗎？——縱然在無數個夜裡反覆思索，但即使時間倒流再一次站到那分歧點上，零還是會義無反顧地扣下扳機吧。<br><br><br> 反正，最終被束縛的，也不過是動身反抗命運、成為了『惡』的自己而已。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>＊</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>在那陌生的溫度第一次捏上他的臉頰時，綱就隱約感覺到對方身上傳來了一股說不上來的感覺，雖然感覺很重很強烈但當中似乎沒有要人窒息的感覺，所以他沒有多作反應，只是任由對方隨意揉捏自己的臉頰，也沒有插話而是乖巧地安靜待著——更準確一點講，是聽不懂也不知道能說什麼（。<br><br><br> 「你跟緬一起待在這裡，我出去一下。」<br> 在聽不懂的話題間突然被提及到本就有點反應不過來，前輩的一句話和唐突的離席更是讓綱的大腦直接陷入當機，只得直愣愣地看著那抹身影逐漸遠去；在門板關起的一刻，他才遲來地眨了眨茶色的雙眸、轉頭望向仍然被自己握住了手的少年，再順著勢捏了捏對方的手。<br> 或許是做夢的人想要藉此辨別虛實，也可能只是懵懂的孩童在模仿他人的舉動，總之，他總算想起剛剛的對話，並慢半拍地開了口：</p>
+<p>「怎麼了，緬……？」</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>「……」</p>
+<p>「綱，你還記得我們談過關於痛苦的事嗎？」<br><br><br> 他停頓了一下，同時感謝零的識趣，如果零拒絕讓他與綱談話，那也情有可原，綱本就不需要理解，於孩子而言，過於複雜且扭曲的情緒。話雖如此，緬卻有許多話想傾訴，人在死期將至前，所說的話總是有更多價值的。<br><br><br> 「你說痛苦是黏膩的，跟我一起時是高興的。」綱正在無意識地定義情感，比如那些破碎的形容、孩子氣的邏輯。<br><br><br> 他想要守護對方，第一次交到的朋友是這樣的性格，緬感到無比慶幸，像他這樣從未掌握命運的人，也能與其許下約定。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>「我希望你記得每一個瞬間的感受，即使不明白，即使那些痛苦扼住喉嚨、即使聲嘶力竭也無法呼吸，也要努力記住。」<br><br><br> 「那些感情會構成綱的一部分。」<br><br><br> 有一天，你會明白。緬如此深信著。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>綱點了點頭回應緬的提問，雖然是半夢半醒間發生的事，也想不起是什麼導致他們聊到這話題，但綱依然記得那一晚他勾住了少年的小指、回應了他或許一輩子都無法理解其真意的諾言。<br><br><br> 他總是如此，默默地把話聽完，不論能否理解當中的含義，最後只會以應允作結，或許是無意間培養出來的壞習慣，也可能是在掙扎中摸索得出的生存方式，孩童總是在一知半解間就作出了所謂的『判斷』——就如同他從未在真正意味上明白他人口中的『痛苦』和『高興』為何物、卻擅自將自己的感覺與這些劃上了等號那樣。<br><br><br> 然而，這一次並不同於以往。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>「……為什麼？」<br> 在反應過來以前，沒頭沒尾的問句便已經脫口而出。<br><br><br> 為什麼要這樣回應？想要從對方身上尋求怎麼樣的答案？老實說連綱自己也搞不懂，他向來不擅長思考複雜的事情，更加沒有意識到驅使他提出疑問的 正體 是什麼。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>「因為那才是真實的。」<br><br><br> 他曾經任性，耍賴要求他的僕從為他做所有事，最終失去一切，慣性是最為可怕的，沒能及時意識到錯誤，也無法做出改變。<br><br><br> 緬舉起槍是在無人能依靠的時候，已經太遲了，銀子彈永遠到不了死者的彼方。<br><br><br> 「綱，你正在定義情緒，只有你理解感受，才是唯一的正解。」<br><br><br> 「逃避的話，只會走向離別。」<br><br><br> 抹消自己的情緒，欺騙自己的感知，自欺欺人的沉默，即是構成緬的所有，他無法喜歡自己，也不相信他人。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>「景常晝永遠的離開了。」<br><br><br> 緬仍然沒有實感，總是聒噪的、永遠虛偽笑著的黑髮男人，他不會說那是愛，那太過乾淨又直白，也許更明確的是恨。<br><br><br> 恨景常晝光是自身的病都不能負擔，也恨無法拯救對方的事實，也許在未明事理的時候，緬也曾經誇口能帶來救贖，找出一條屬於他們的生路。<br><br><br> 「而離開……總是帶來真實的痛苦，沒有任何言語能形容。」<br><br><br> 那條路空蕩蕩的，沒有任何人。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>『因為那才是真實的』、『只有你理解感受，才是唯一的正解』……與那一晚的朦朧不同，這一次緬為他指出了更為明確的答案，一直殘存在心裡的無解疑問也似乎在這一刻得到了解答，那麼，只要像以往那樣應允再去實行就好——</p>
+<p>（……不對。）<br><br><br> 既然這是真實的，既然這是唯一的正解，那只要照著對方所說的那樣去做就好了，但是，『不對』……總覺得心裡一直有股聲音如此訴說著，這就是自己所感受到的『答案』嗎？可是……為什麼？到底是哪裡『不對』了？如果這不是正解的話，那為什麼緬會覺得這是正解？什麼才會是『正解』？『我』的感受又是什麼？又要如何去『理解』它？『我』到底要——逐漸湧上來的重壓打斷了他那如同鬼打牆般的思路。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>「……」<br> 從緬身上傳來的重壓壓得他幾乎要喘不過氣來，這種感覺並不陌生，在當初告知景常晝死訊的緬身上他也有感受到類似的感覺……所以，這份感覺是源於緬所說的『離開』嗎？因為景常晝的離開，所以才這樣嗎？<br> 但是，這一次的感覺遠比當時的強烈且複雜，像是有別的什麼摻雜在裡面了一樣，要類比的話大概就跟進來極惡之間以前那個總是笑著內在卻空空如也的人給他的感覺差不多——是他能感受到卻永遠無法理解的感覺。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>「…………」<br> 孩童垂下了頭，腦袋、思考、感受全都混亂得像纏在一起的毛線團一樣，但他還是向少年伸出了手，瘦小的雙手先是包覆起了那隻比自己還要白晢上幾分的手、再輕輕撫摸著，彷彿手裡捧著的不是比自己還來得要大的手，而是一隻脆弱的幼獸那樣。<br><br><br> 他無法以言語回應，正如緬所說的那樣，沒有任何言語能夠形容真實的痛苦，更何況是從未體會過『痛』也不善言語的綱？<br> 但是，他更加沒辦法做到視若無睹——就像當時他明明什麼都不懂，卻對失去了景常晝的緬說出那句『辛苦了』一樣。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>溫熱的、緩慢的觸碰，沒有任何威脅性的，奇怪的安心感隨著被捧起而擴散在茫然的心中，水滴悄悄的滴落在交疊的手上，濕漉漉的，連他的臉頰也是。<br><br><br> 為什麼會有水？從哪裡滴落的？<br><br><br> 跳躍式的疑惑不停浮出，緬才意識到那是自己的眼淚，他明明沒感到任何悲傷，壓抑也早就是日常，為什麼現在會開始流淚？<br> 方才還決意定義男孩情緒的少年，此時有些無措，腦袋一片空白。<br><br><br> 只有止不住的淚水仍然流淌著，他轉而拉動手指，拉近兩人的距離，試圖將臉埋在男孩窄小的肩膀上，才能掩耳盜鈴，哭得不那麼顯而易見又清晰的丟臉。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>綱無法理解那滑落的淚滴的含意，也不知該如何命名定義緬現在身上傳來的感覺和行為，甚至未能認知到這行為與『痛苦』之間的連結。<br><br><br> 愚鈍的小孩無法理解的事情明明如此之多，卻偏偏得來了對飄渺情感的感受力。<br><br><br> 他是能感受到的，感受到那溫熱的液體滲進布料落在手背上的一刻，壓抑感從緊掐脖子的窒息感，慢慢轉化為一股……他也說不上來是種怎麼樣的感覺，不太受控卻不具有半分惡意，正在緩慢地，也能說是無力地，從好不容易才找到的裂縫中流溢而出。<br><br><br> 「……」<br> 綱仍舊沒有回話，只是默默地騰出一隻手摸了摸那靠在肩頭上、總是因為身高而搆不著的銀白腦袋。<br><br><br> 小小的身軀承接不了對方身上的重擔，無力的雙手也不具備改變現實的能力；可是，即使只有些許也好，他還是希望能抹去壓在心頭上的那份重量——就像在那個搞不懂『痛』為何物的晚上，前輩曾對他所做的那樣。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>生於黑夜的孩子，無法被太陽照耀，卻能暫且作為月亮，短暫的照亮彼此，永夜的餘燼仍然未熄，緬試圖藏起那些餘灰。<br><br><br> 少年的啜泣幾乎沒有聲音，像是早已習慣遮掩音量，無聲地、安靜地，他們未能得到答案，難以用言語組織的溫柔卻伴隨身側，苦厄罪罰之間唯一的「善」。<br><br><br> 他沒有放全部的力氣在綱身上，難以自抑的哭著，直到門外的零都察覺到時間過去太多，房內突兀的一陣安靜。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>＊</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>……好久。<br><br><br> 零也不知道自己在這裡待了多久，但既然足以讓自己從混亂的思緒中恢復過來，想必是一段不短的時間吧。<br><br><br> 可以的話真想找個沒人的地方靜靜，然而考慮到自己離開後緬和綱或許會面臨被襲擊還沒有退路的風險，他也只得靠著門扉當起守門人，雖然在旁人眼中自己應該比較像個不知為何直愣愣站在這裡思考起人生的傻子吧——看著不知是第幾個在這走廊經過的身影，再選擇性忽略掉對方打量的目光，零不著邊際地開始想些有的沒的。<br><br><br> 雖然知道以那兩人友好到不尋常的關係、一對一談話會聊久一點並非什麼奇怪事，零也不擔心門的另一端自家同事突然被背叛遭遇不測，但不管怎樣還是太久了，他只得反手輕敲了下門板，作著不識趣的提醒。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>緬止住哭泣，用髒掉的衣袖抹了抹臉，從男孩瘦弱的肩膀上退開。<br> 「……我失態了。」<br><br><br> 最後稍稍用力抱了一下綱，便起身去開了門，臉上的紅痕難以遮掩，甚至臉頰上還有袖子蹭上去的血污，模樣相當狼狽。</p>
+<p>「抱歉，讓你久等了。」又哭又笑的，消耗了緬不少體力，臉色看上去也不太好，如同剛經歷一場費盡心神的談話。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>…</p>
+<p>「……沒什麼，你應該有很多話想跟那傢伙說的……我想。」<br> 從門扉敞開到開口回話的須臾間，習慣察言觀色的零就把緬的異狀全都捕捉到了，應該說只要不是瞎的都能看得出對面狀態欠佳，就只差沒往臉上寫『我現在很不好』這六個大字而已。<br><br><br> 進房後他也順勢瞥了眼不遠處的綱，本就懵懵懂懂反應總是慢人個半拍的孩童，現在更是成了一根僵在原地的木頭，看起來像是……當機了嗎？老實說零也不是很能搞得懂現在的情況，亦完全無法想像剛剛房裡究竟發生了什麼才會造成二人此刻的狀態。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>「先在這裡休息一下吧，想睡一覺也可以的，我們應該還有點時間才能離開這裡。」語畢，零便隨意找了張椅子坐下，把床舖讓給了現在更需要它的人們。<br><br><br> 同一時間綱也總算回過神來，有點不知所措地看了看坐到椅上就立即閉目養神的零，遲鈍的腦袋一如既往慢半拍才開始消化起自家前輩方才的話，接著便先行爬上了軟綿綿的床蜷縮成一團。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>「……好。」<br><br><br> 緬點點頭，接受零的建議，看著縮成一團的綱，忍不住露出一絲笑意，朝零的方向走去，以極小的音量說道：<br><br><br> 「我對綱說的話，也許是一種毒藥，如果有一天他需要做出選擇。」他頓了頓，清楚地意識到自己依舊是任性又滿不講理地，給對方添了麻煩。<br><br><br> 或許對於孩童來說，他人的任何干涉，都是一種揠苗助長。</p>
+<p>「屆時就麻煩你了。」</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>「……你還真以為我是監護人喔。」<br> 黑髮少年後仰往椅背一靠，接著又是熟悉的一聲嘆氣；說是這樣說，但現在這副無奈又疲憊不堪的模樣，完全就是個好不容易才找到空隙喘口氣結果又被打擾的過勞褓姆。<br><br><br> 有時還真希望自己的聽覺能稍微失靈一下，這樣就不會聽到那堪比喃喃自語的小聲託付，能安穩地小睡片刻而不是像現在那樣被那該死的雜念纏上。<br><br><br> 你是希望我到時候能幫一下綱嗎？那還真是對不起了我沒你想像中那麼神通廣大我只是個被人壓榨也只能敢怒不敢言的卑微打工仔，更何況你說的那個『如果』根本就不會出現——要是能這樣說就好了，可他就是沒能狠下心擊碎少年小小的懇望，應該說他不想踐踏這份為朋友著想的心情。<br><br><br> 然而，零也沒辦法應允這打從一開始就知道絕對不可能兌現的諾言。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>緬沒有說話，僅是點了點頭。<br><br><br> 這幾日的相處讓他大抵上認同零的能力和性格，偶爾說出冒犯的話，大概是看在委託人的身分上，也未被過多的針對，隨後他指了指床鋪，示意自己要去睡了。<br><br><br> 躺上床後，一陣疲憊感襲來，身體本就是消耗過度的狀態，忍耐喉間想要咳嗽的衝動，吞咽即將溢出口腔的血液，只要離開這裡，一切都將畫上句點。<br><br><br> 包含死亡、包含復仇、初次的友誼，或是任何情感，思緒至此，他輕輕地握住了綱的手。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>「………………」<br> 小孩子總是愛睏且不易醒，即使床上忽地多了份重量，也不過是讓緊閉的雙眼稍微開了個縫，而綱顯然是敵不過睡魔的誘惑，好不容易才撐開了一點的眼皮不到三秒又馬上闔上。<br><br><br> 然而，沒有醒來並不代表什麼，畢竟綱向來都不是睡相好的小孩。<br><br><br> 嘴裡說著含糊不清的夢囈，沒被握住的另一手微微挪動，就這樣蓋在重疊的雙手之上，臉頰也順著勢湊了過來、磨蹭起緬的指節，未脫稚氣的臉蛋仍帶著孩童特有的軟嫩，大概是營養不良的他為數不多能稱得上算有點肉感的部位。<br><br><br> 小小的手又一次包覆住了那虛弱的白，只是跟先前的示好和小心呵護相比，現在更像是小孩在摟抱心愛的布偶入睡。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>緬無聲地笑了，平白覺得這個畫面有些可愛，也把自己的臉湊過去，維持著有些蜷曲的姿勢，靠著交疊的手睡去。</p>
+<p>「晚安。」<br><br><br> 這是最後一覺了，他非常明白，無論結果如何，他們都會得到屬於自己的結局。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>＊</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>緬從睡夢中驚醒，心有餘悸地喘著細小的呼吸。<br><br><br> 他睡了多久？這週以來的安心感使他鬆下戒備，那個人死去前，他們會交替著睡，緬知道他與景常晝都醒著，只是以假寐免去無意義的爭吵，即使如此，身軀仍因過量的緊繃與不安發出抗議，迫使他方才全然陷入沉眠，睡得不醒人事。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>「……時間到了？」<br><br><br> 緬揉著疼痛的額間，清楚醒來時的動靜已經吵醒零，於是垂著頭問道，他們正等待最後一刻到來，綱則安逸的睡著。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>零本只打算閉目稍事休息，可連日來的疲勞和混亂的思緒還是讓精神到達了臨界點，腦袋就像拔掉電源的電腦那樣逕自停止了運作——直到被那動靜喚醒為止。<br><br><br> 「啊……！？」<br> 猝不及防的聲響中斷了短暫的淺眠，更是把趴伏在桌上的零嚇得整個人都彈了起來，其動作幅度之大還讓椅子不穩地晃了幾下。<br><br><br> 不知是出於哪種原因，或許是覺得趴著不會被看到，也可能只是睡眠間無意識的動作，那枚彷彿已經焊死在臉上的黑色布料少見地被退至下巴處，難得地露出了那青澀的少年臉孔，以及總是被遮了一大半的慌亂神色。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>驚惶的赤眸四處張望，確認好現況和夥伴們的安危，零總算吁一口氣，並慢半拍地想起緬的提問，他將隨意拉到一旁的口罩歸位了才啟口回應：</p>
+<p>「還沒……應該還要兩三個小時左右，應該能再睡一下。」<br> 手邊沒有任何可供報時的裝置，他只能憑感覺作判斷。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>眼角的餘光能看見那張年輕的面孔，他稍稍感到驚訝，卻又理所當然，不論是口罩下悶悶的聲音，原來景常晝居然是他們這幾人當中年紀最大的，第一反應居然是這種荒唐的事情，緬收斂好自己的目光，每個人都有不想被探聽的隱私。</p>
+<p>「……我有不好的預感。」離結束的時間越近，他就越是驚惶，纖細的神經如琴弦般繃緊到沒有放鬆的空間，從這裡離開，過上無憂無慮的新生活——<br><br><br> 那種事情根本不可能存在。<br><br><br> 他必須不斷地殺人來維持生命，那充滿希望的她也並未選擇平穩的道路，緬站起身來，直視那雙鮮紅似血的眼眸。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>「我想，差不多該到結束委託的時機了。」他與綱已經做好道別、交換好聯絡方式，此時也沒必要再叫醒男孩，他思索著是否該再說些感謝的話語，同時又覺得微妙地有些彆扭。<br><br><br> 『——砰！』<br><br><br> 槍聲打斷了他接下來的話語，緬心頭一跳，令他不安的壞事終於發生了，像是每次被追殺時，前一天都會在不變的日常中察覺到違和，五感蒐集到的資訊，回饋給直覺，將他浸在永恆的憂慮裡。</p>
+<p>「我……」<br><br><br> 身體止不住發顫，淺色的瞳孔因恐懼而放大，他退了幾步，倚靠在門口的牆上。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>像是在應驗緬所說的『不好的預感』那樣，倏地響起的槍聲中斷了告別前的寒暄，搖搖欲墜的片刻安穩終將如幻沫般破裂，且不復存在。<br><br><br> 綱仍蜷縮成一團酣睡著，與世隔絕得彷彿天塌下來也不會被吵醒一樣；而零也僅僅是輕嘆了口氣，在這鬼地方突然響起槍聲早就成為日常的一部分了，他的態度也從最初的警戒慢慢轉為煩躁最後變為見怪不怪的無奈，只要槍聲不是在自己附近響起的話他一律不會當作一回事，但此刻緬的反應讓他有點在意。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>零一把掀開了覆在綱身上的被子，隨手晃了晃那單薄的身子後，也不管人到底清醒了沒有，就這樣逕直走到明顯陷入了恐慌的緬跟前：</p>
+<p>「冷靜點，先深呼吸一下……這裡是安全的。」<br><br><br> 嘴裡雖說著教科書式的安撫說話，可零總感覺哪裡不太對勁；應該說，他並不認為曾親自開槍殺人的緬，會因為區區一發槍響就驚慌成這副模樣。</p>
+<p>「……那是你的手槍發出的槍聲嗎？」<br><br><br> 槍聲會因應射擊環境、槍枝種類、使用的彈藥而有所差別，可即使是聽覺敏銳的他亦未至於能清楚辨別出槍聲是由哪一把手槍發出、是否與記憶中聽過的槍響出自同一把手槍；但結合緬的反應，即使是腦子不算靈光的他也隱約猜到了答案。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>緬知道自己的反應太過度了，便按照零的安慰來調整呼吸的節奏，他有時會想，生於危難的孩子，會因為平地的一聲驚雷而感到害怕嗎？想必是不會的。<br><br><br> 那些能夠存活下來的人，大抵都受過訓練，或擁有非常人的幸運，而他什麼都沒有，卻還不停懷念著過往，質疑自己所做的決定，得做出正確的決斷才行。</p>
+<p>「是的，我與她……分開的時候，有特地留意她的去向，不論是槍聲、時機、方位，都確實是我的手槍。」<br><br><br> 「那枚子彈終究是殺了人。」<br><br><br> 一個完美的閉環，殺人者終究被死去的人留下來的武器給殺死，後面也未有打鬥或其他的槍聲響起，第四週間的結末、極惡之間的盡頭，都要迎來所謂的大結局。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>「……他、」停頓了一下，他似乎是想問綱有沒有醒來，又覺得對方像隻困倦的貓，不自覺地勾起唇角，那弧度並不明顯。<br><br><br> 「不，我的復仇也結束了。」緬沒有直接問，僅是移開視線，停留在男孩身上。</p>
+<p>「殺了景常晝的、我的仇人，最終被她給殺死了，即使這並不是最好的結果。」他的猜想是正確的，只有這個是唯一不需要懷疑的結果，所有算計和直覺被收束，來到了最壞的結果。<br><br><br> 他成功了，失去了一個騎士，被種下需要不斷殺人的詛咒，結束如噩夢般的一個月，那麼，他獲得了什麼？</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>「……」<br><br><br> 景常晝，這個總是被緬掛在嘴邊的人，應該是對緬而言相當重要的存在，同樣是極惡之間的參賽者，然後在他們結為『同盟』以前先被某人殺害了；這個『某人』似乎在這一刻，被方才的槍響奪去了性命，而開槍的似乎就是先前被緬託付了手槍的，那名為霍普森的女性；緬不知為何斷定死亡一定會降臨在霍普森身邊，還刻意把手槍交出去，讓對方有機會完成自己的復仇——沉默不語的少年把腦內現有的情報整合了一番。<br><br><br> 零並不認識緬口中的景常晝，與霍普森亦只有一面之緣，在幾乎不認識任何相關者的前提下，他僅能利用散落在言行間的種種線索嘗試拼湊出可能的真相，但顯然地他缺失了最關鍵的那幾塊拼圖，七零八落的前因後果並沒有讓他更瞭解一切，只弄得人滿腹狐疑。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>不過這也是理所當然的，畢竟他只是個恰巧觸碰到事件一角的『局外人』罷了，自然無法理解這群人之間的愛恨情仇，而他也沒有要進一步追問下去的打算。<br><br><br> 關心、開解、傾聽，這些都不是他的份內事；他需要做的，就只有與人保持恰到好處的距離，完成被交付的『委託』；除此以外的事情，他無權過問，亦無權干涉。<br><br><br> 所以，他只要盡好作為『受雇者』的職責就好，先詢問對方接下來的行動，若確認不會有危險就在此道別結束委託，接著邁向各自的結末——本應如此。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>「……」<br><br><br> 綱不知何時從睡夢中醒來、來到了他們聚集的門邊，戴著白色手套的小手輕輕拉扯緬的衣袖，接著整個人偎在對方的手臂之上，像隻愛黏人的幼貓正在撒嬌那樣。</p>
+<p>「要走了？……緬……？」<br><br><br> 與他的前輩不同，綱的腦袋並不存在『深思熟慮』一詞，在剝下他者附加的設定後，凶殘的扯線人偶也不過是個遠比同齡人還要來得愚笨的小孩罷了，只是順應任性的本能和個人意志，想要挽留即將離開的友人。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>「嗯，我該離開了。」<br><br><br> 他再次重申，也是再跟自己強調，感受到手臂傳來輕輕的力道，緬伸出手揉了揉綱的頭髮，蓬鬆且淺淡的髮絲，單論觸感不是很好，但這個行為帶來的心理滿足還是更多一些，他確信他會想念綱的。<br><br><br> 不安穩卻令人眷戀的夢境，做夢者都該從中清醒，來面對現實。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>「謝謝你們的照顧。」<br><br><br> 介於成熟與稚嫩的嗓音有些乾澀，聽來有些生硬，即使是委託，這點程度的道謝應是能被接受的，少年一貫想得很多，他只在解釋局面時多費些口舌，他們本質上都不是愛說話的人。<br><br><br> 如此反覆地想起景常晝，也不外乎是因為死者曾經相當聒噪，時不時出現的幻覺使人精神耗弱，心靈上彷彿度日如年，腳步似被凍住般無法移動。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>「我希望那些惡夢遠離你，綱。」<br><br><br> 少年薄弱的祝福，僅止於此，他微微蹲下身子，給出一個力道有些重的短暫擁抱。<br><br><br> 他短暫的人生都藏在陰影下，才會尤其懼怕朝陽升起，所有恐懼都源於他的無能。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>——我希望那些惡夢遠離你，綱。</p>
+<p>「……」<br><br><br> 年幼的孩童並未能理解這一份祝福背後的含義，感覺有點沉重，但並不像往常感覺到的重壓般只讓自己感到窒息——應該說，反而變『輕』了。<br><br><br> 每一下觸碰，都在拂去堆積在心頭上的不明重量，讓呼吸暢順了點，有種輕飄飄的感覺，彷彿只要闔起雙眼就能馬上回到睡夢之中。<br><br><br> 綱半瞇起黑茶色的眼眸，偎在那瘦弱的臂彎裡再回以對方一個擁抱，就像每一次睡醒他總不願離開暖呼呼的被窩那樣，只想永遠被這份溫度和柔軟所包覆，任由意識被一點一點沖散、被夢境的洋流所吞沒，徹底忘卻清醒時感覺到的一切。<br><br><br> 然而，再多的任性都無法阻止將至的離別。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>「……不用謝，既然接下了委託，那我就有義務讓你安全活到現在。」<br><br><br> 與綱相比，零的回應就顯得相當冷淡，在帶點溫馨和感傷的離別時刻，這樣的話語甚至有點不合時宜。<br><br><br> 一旦觸碰過溫暖便會產生眷戀，但無法永遠留存的溫暖只會放大失去後的空虛——這就是短暫的『慰藉』，說白了不過是具成癮性的嗎啡，雖能延緩痛楚但無法摘除病根，而在停止用藥、回歸現實的那一刻，一切將會化為足以致命的猛毒。<br><br><br> 總要有人來當打碎美夢的惡役。</p>
+<p>「把你送到霍普森那邊再結束這一次的委託吧，那邊開了槍，感覺情況不太安全……你剛剛說有留意她的去向對吧？那來帶一下路。」</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>如同羽毛般柔軟、夢境般輕盈的擁抱，他閉起眼睛，輕輕向後退了一步，結束這短暫的慰藉，再睜眼時，極淺的灰眸又恢復冷靜，透不出任何情緒。</p>
+<p>「嗯，跟我來吧。」<br><br><br> 他不再推辭，點點頭拉開門扉，在幾分鐘前這個動作還顯得無比沉重，他深知弱者沒有選擇的餘地，人們總是眷戀不可得之物，他踏出去時，走廊上一片寂靜。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>極輕的腳步未發出聲響，他沒有回頭去看，無關乎信任或是對於勝利的把握，緬從未如此清晰意識到自己的價值。<br><br><br> 無論是出去的獎勵，還是那些該被收拾的爛攤子，他活下來，遠比死去更有利益。大廳並不遠，也沒有更多思考的時間，金髮的男人昏迷在地上，連帶著死去的予望川，霍普森的手槍仍冒著硝煙。<br><br><br> 霍普森似乎正呢喃著什麼，緬靠著唇語讀出了她的意思，便轉身看向零與綱。</p>
+<p>「……這便是最後了，費用我會盡快結清的。」<br><br><br> 說完所有想說的話，委託、甚至連復仇也圓滿結束了，全是緬意料之外的事情。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>感覺到緊抱身體的力道放開了自己，綱下意識伸出了手想要再一次抓緊人，然而在與那雙灰眸對上眼之際，欲要伸出的手卻僵了在半空，最終慢慢垂下。</p>
+<p>「……」<br><br><br> 為什麼在最後的最後選擇了『放手』？是因為在對視的一刻便意識到對方的想法、知道做什麼都無法阻止對方的離去？還是覺得這樣做才是『正確』的？——這個問題的答案，或許連綱自己都搞不懂。<br><br><br> 孩童只是佇在原地，感受著殘存的溫度一點一點消散，看著一黑一白的身影相繼走出去、消失在視野範圍裡；而自己，始終留在空蕩蕩的房間裡，遲遲未能挪動雙腳半分。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>「……綱，該走了。」<br><br><br> ——直到聽見前輩呼喊自己的聲音，他才如夢初醒，慢吞吞地跟上去。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>槍聲來自不遠處的大廳，還沒走進去就能聞到硝煙的刺鼻氣味，顯然一切都已經結束了，而裡頭的慘況一目了然。</p>
+<p>「嗯。」<br><br><br> 對於緬的話語，零僅以簡短的一聲作回應，雖然方式不同，聽覺過於敏銳的零也同樣聽見了女性低語的內容，但深究和插手都不是他該做的事情；說到底，不論是零還是綱也好，他們都只是恰巧接觸到事件一角的『無關人士』而已。<br><br><br> 他們的參與（出演）就該到此為止。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16675695-medium57713974.gif" alt="∆◇×" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">∆◇×</p>
+            <div class="message-content">
+              <p>委託結束，零背對不屬於他們的舞台，朝著反方向先行邁開了步伐；而綱則是緊盯著緬的背影，又一次頓了在原地。<br><br><br> 「……掰掰，緬。」<br><br><br> 在短暫的美好共夢中相互依偎，生於黑夜的白色小孩們最終自夢中甦醒過來，接著走向各自的結局，或許再也沒有交接的機會。<br><br><br> 那一聲道別音量被放得很輕，輕得讓人感覺只是幻聽的程度，不到幾秒便徹底消融在寂靜之中，就好像一切從未發生過那樣。<br><br><br> 而留下話語的那孩子，早已杳無蹤影。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>回應那宛若虛幻的道別是一聲輕嘆，緬沒有回頭，他知道他們已經離開了。<br><br><br> 並不是同伴，也未有任何可以紀念的禮物，短暫的交談與約定，或許很快就會被遺忘吧，像是為了避開光亮，而交匯在一起的陰影，也到了分別的時候。<br><br><br> 所以不要回頭，向前走，面對自己的命運，朝向希望的道路前進，即使會被灼傷，從此不再感到快樂也沒關係。<br><br><br> 「我聽見妳說的話了。」<br><br><br> 在絕望希望的止境，不論善惡，人們終會做出抉擇，迎接他們所認可的真實。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>「……謝謝你的槍，緬。」霍普森帶著倦意的聲音響起，緬跟在她的身後。<br><br><br> 「不論出去以後是繼續殺人，或是該做任何事，我都會去做的。」她說。<br><br><br> 少年的一生無數次後悔過，選擇逃入極惡之間，是他當時能做的最好的決定，無論結局如何，都不再感到悔恨。<br><br><br> 「好。」<br><br><br> 褪去羔羊的皮囊，唯有死在真實之中，才能證明自己曾經來到這個世上。</p>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="message-bubble">
+          <img src="https://avatars.plurk.com/16790789-medium87771966.gif" alt="緬" class="avatar" />
+          <div class="message-content-wrapper">
+            <p class="character-name">緬</p>
+            <div class="message-content">
+              <p>……再見。<br><br><br> 沒有吐出任何音節，那是屬於緬的告別，綱、零，或許此生都不會再見了，但他仍然堅定自己的想法，不再改變。<br><br><br> 再見了，極惡之間。</p>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </body>
+    </html>
+  
